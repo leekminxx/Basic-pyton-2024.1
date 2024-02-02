@@ -108,7 +108,9 @@
         - Ctrl + Shift + P (명령팔레트) 로 시작
         - 사용방법 (test31_jupythernb.ipynb) 참조
     - folium 기본사용
-    ![folium사용법]((https://raw.githubusercontent.com/leekminxx/Basic-Python-2024/main/images/1.png))
+    ![Folium사용법](https://raw.githubusercontent.com/leekminxx/Basic-Python-2024/main/images/1.png)
+
+     
 
 
 ## 5일차
