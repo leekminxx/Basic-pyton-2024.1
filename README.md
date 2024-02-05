@@ -120,17 +120,46 @@
     - json 입출력
     - 응용예제 연습(10개)
         - Ip 주소 확인
+        - QRCODE 만들기
+
+## 6일차 
+- Python 라이브러리 경로 : C:\DEV\LANGS\Python311\Lib\site-packages
+- 파이썬 응용 
+    - Window App(PyQt) 만들기 
+
+    ```shell
+    > pip install PyQt5
+    > pip install PyQt5Designer
+    ```
+
+    - PyQt5 기본실행
+    - QtDesigner 사용법
+    - ★★★ 쓰레드 학습 : UI쓰레드와 Background 쓰레드 분리
+        - GIL, 병렬프로세싱 더 학습할 것
+    
+    ![쓰레드예제](https://raw.githubusercontent.com/leekminxx/Basic-Python-2024/main/images/python_001.gif)
 
 
+    ```python
+    # 쓰레드 클래스에서 시그널 선언
+    class BackWorker(QThread): # PyQt에서 스레드 클래스 상속
+        initSignal = pyqtSignal(int) # 시그널을 UI스레드로 전달하기위한 변수객체
+        # ...
 
+        def run(self) -> None: # 스레드 실행
+            # 스레드로 동작할 내용
+            maxVal = 1000001
+            self.initSignal.emit(maxVal) # UI쓰레드로 보내기...
+            # ...
 
-
-
-
-
-
-
-
+    class qtwin_exam(QWidget):  # UI 스레드
+        # ...
+        def btnStartClicked(self):
+            th = BackWorker(self)
+            th.start() # BackWorker 내의 self.run() 실행
+            th.initSignal.connect(self.initPgbTask) # 스레드에서 초기화 시그널이 오면 initPgbTask 슬롯함수가 대신 처리
+            # ...    
+    ```
 
     - 가상환경
     - 객체지향(나중에...)
