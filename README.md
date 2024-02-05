@@ -139,6 +139,7 @@
     
     ![쓰레드예제](https://raw.githubusercontent.com/leekminxx/Basic-Python-2024.1/main/images/python_001.gif)
 
+    
 
     ```python
     # 쓰레드 클래스에서 시그널 선언
