@@ -137,7 +137,7 @@
     - ★★★ 쓰레드 학습 : UI쓰레드와 Background 쓰레드 분리
         - GIL, 병렬 프로세싱 더 학습할 것
     
-    ![쓰레드예제](https://raw.githubusercontent.com/leekminxx/Basic-Python-2024/new/main/images/python_001.gif)
+    ![쓰레드예제](https://raw.githubusercontent.com/leekminxx/Basic-Python-2024-new/main/images/python_001.gif)
 
 
     ```python
