@@ -169,6 +169,28 @@
 
     ```
 
+## 7일차 
+- 파이썬 응용 
+    - 객체지향 정리
+        - 상속 , 오버라이딩(재정의) , 오버로딩(같은이름의 함수를 마음대로골라쓰자) 
+    - 가상환경 Virtualenv
+        - 다른버전 파이썬도 설치해야 사용 가능
+        -  3.11에서 3.9가상환경 만들려면 3.9 파이썬 설치필요
+    - PyQt5와 응용예제 연습
+        - 이미지 뷰어 
+        - 이미지 에디터
+    ![PyQt예제](https://raw.githubusercontent.com/leekminxx/Basic-pyton-2024.1/main/images/python_001.gif?token=GHSAT0AAAAAACNPESZB2RDJVDX4TCKK4ZNOZOATQZQ)
+
+## 8일차 
+- 파이썬 응용
+    - PyQt 응용예제 계속
+
+- 파이썬 기본 코딩테스트
+    
+
+
+
+
     - 가상환경
     - 객체지향(나중에...)
         - 오버로딩 , 오버라이팅(재정의)
