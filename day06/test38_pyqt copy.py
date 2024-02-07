@@ -7,7 +7,6 @@ from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 
-class qtwin_exam(QWidget):
 class qtwin_exam(QWidget): ##상속
     def __init__(self) -> None: # x버튼 종료확인
         super().__init__()
