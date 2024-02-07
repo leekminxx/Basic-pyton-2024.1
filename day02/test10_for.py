@@ -24,6 +24,9 @@ for in_list in list_a:
 
 
 
+en  = input("영단어를 입력하시오")
+print(len(en))
+
 
 
 
