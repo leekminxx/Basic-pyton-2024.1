@@ -179,8 +179,7 @@
     - PyQt5와 응용예제 연습
         - 이미지 뷰어 
         - 이미지 에디터
-    ![PyQt예제](https://raw.githubusercontent.com/leekminxx/Basic-pyton-2024.1/main/images/python_001.gif?token=GHSAT0AAAAAACNPESZB2RDJVDX4TCKK4ZNOZOATQZQ)
-
+    ![PyQt예제](https://github.com/leekminxx/Basic-pyton-2024.1/blob/main/images/cat12.png)
 ## 8일차 
 - 파이썬 응용
     - PyQt 응용예제 계속
